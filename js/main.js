@@ -278,16 +278,23 @@ const checkIfTyping = () => {
 }
 
 window.onkeypress = e => {
-  if(!HAS_STARTED_TYPING) onInitialType()
-  if(!isEndOfPage() && isValidLetter(e)) typeLetter(e.key)
+  //if(!HAS_STARTED_TYPING) onInitialType()
+ // if(!isEndOfPage() && isValidLetter(e)) typeLetter(e.key)
 }
 
 window.onkeydown = e => {
-  if(!HAS_STARTED_TYPING) onInitialType()
-  handleAlternateKeys(e) 
+ // if(!HAS_STARTED_TYPING) onInitialType()
+ // handleAlternateKeys(e) 
 }
 
+let mockSentence = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Molestie at elementum eu facilisis sed odio morbi quis commodo. Odio pellentesque diam volutpat commodo sed egestas egestas. Erat velit scelerisque in dictum non consectetur a erat nam. Nec nam aliquam sem et tortor consequat. Sit amet venenatis urna cursus eget. Quis lectus nulla at volutpat diam. Cursus euismod quis viverra nibh. Morbi blandit cursus risus at ultrices mi.`
+
+let sentence = `Desde o dia que você entrou em minha 
+vida, nada é mais da mesma forma. Os dias tem sido melhores. 
+Amar é também se esforçar para que tudo dê certo, e eu amo você!`;
+
+
 window.onload = () => { 
-  typeSentence('Desde o dia que você entrou em minha vida os dias tem sido melhores. Amar é também se esforçar para que tudo dê certo, e eu amo você!')
-  setInterval(() => checkIfTyping(), 10)
+  typeSentence(mockSentence)
+  //setInterval(() => checkIfTyping(), 10)
 }
