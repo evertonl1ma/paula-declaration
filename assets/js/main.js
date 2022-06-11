@@ -290,11 +290,14 @@ window.onkeydown = e => {
 let mockSentence = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Molestie at elementum eu facilisis sed odio morbi quis commodo. Odio pellentesque diam volutpat commodo sed egestas egestas. Erat velit scelerisque in dictum non consectetur a erat nam. Nec nam aliquam sem et tortor consequat. Sit amet venenatis urna cursus eget. Quis lectus nulla at volutpat diam. Cursus euismod quis viverra nibh. Morbi blandit cursus risus at ultrices mi.`
 
 let sentence = `Durante muito tempo caminhei sozinho, e pra mim estava tudo bem, estava ok. 
-   Desde o dia que você entrou em minha vida, nada é mais da mesma forma, nada é mais igual. 
-Os dias tem sido melhores, eles fazem mais sentido. A vida faz mais sentido.
-Temos nossos problemas, temos nossas coisas a melhorar.
-Temos muitas coisas a fazer, muitas coisas a viver.
+   Mas, de repente, você entrou na minha vida, e tudo mudou. Desde o dia que você entrou em minha vida, nada é mais da mesma forma, nada é mais igual. 
+Os dias tem sido melhores, eles fazem mais sentido.
+A vida faz mais sentido, ela tem mais cor.
+
+Temos muitas coisas a fazer, muitas coisas a viver, e eu quero você do meu lado sempre. Sendo minha amiga,
+minha parceira, minha namorada, sendo a mulher da minha vida
 Amar é também se esforçar para que tudo dê certo, e eu amo você!
+\t\t\t\t\t\t
 A vida fica mais bonita contigo`;
 
 
